@@ -1,0 +1,863 @@
+/* Tags Styles */
+body {
+    margin: 0;   
+    height: 100%;
+}
+
+section {
+    width: 100%;
+}
+
+/* Size parts of page*/
+.intro,
+.div-aboutus,
+.kind-of-plants,
+.what-we-offer,
+.div1-excellence,
+.ourgallery,
+.wdts,
+.subscribeMailing,
+.ibtr,
+.footer {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* INTRO */
+.section--intro {
+    background-image: url(../imgs/intro/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.intro {
+    height: 758px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.header-logo {
+    padding: 37px 0 0 120px;
+}
+
+.navbar-btns {
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.nb-items {
+    padding-right: 50px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nb-items:last-child {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 150px;
+    height: 41px;
+
+
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.intro-center {
+    padding: 139px;
+    text-align: center;
+
+    font-family: 'Lato';
+    color: #FFFFFF;
+}
+
+.ic-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.ic-subtitile {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.ic-btns {
+    padding: 37px 0 0 0;
+}
+
+.icb-booknow {
+    width: 168px;
+    height: 41px;
+
+    background: #285A43;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+}
+
+.icb-watchvideo {
+    width: 187px;
+    height: 40px;
+    margin-left: 13px;
+
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    cursor: pointer;
+
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+}
+/* /INTRO */
+
+/* About Us */
+
+.aboutus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* text */
+
+.text-aboutus{
+    font-size: 18px;
+    line-height: 27px;
+    opacity: 0.8;
+    font-family: 'Raleway';
+
+    padding-right: 120px;
+    padding-top: 124px;
+}
+
+.choose-aboutus {
+    color: #285A43;
+    width: 480px;
+
+    font-family: 'Lato';
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+
+    padding-left: 120px;
+    padding-top: 124px;
+}
+
+/* /text */
+
+/* /About Us */
+
+/* Kind of Plants */
+
+.kind-of-plants {
+    display: flex;
+    justify-content: space-around;
+
+    font-family: 'Raleway';
+    font-size: 16px;
+    line-height: 150%;
+
+    margin-top: 90px;
+}
+
+/* kind of plants blocks */
+
+.kind-of-plants-1 {
+    width: 350px;
+    height: 380px;
+
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.02);
+    border: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.kind-of-plants-2 {
+    width: 350px;
+    height: 380px;
+
+    background-color: #337A5B;
+
+    border-radius: 10px;
+}
+
+.kind-of-plants-3 {
+    width: 350px;
+    height: 380px;
+
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.02);
+    border: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+/* /kind of plants blocks */
+
+/* headline */
+
+.h3-king-of-plants {
+    color: #285A43;
+
+    font-family: 'Lato';
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+
+    padding-left: 50px;
+}
+
+.h3-white-kind-of-plants {
+    color: #ffffff;
+
+    font-family: 'Lato';
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+
+    padding-left: 50px;
+}
+
+/* /headline */
+
+/* text */
+
+.text-kind-of-plants {
+    padding-left: 50px;
+    opacity: 0.8;
+}
+
+.white-text-kind-of-plants {
+    color: #FFFFFF;
+    opacity: 0.8;
+
+    padding-left: 50px;
+}
+
+/* /text */
+
+.image-king-of-plants {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+/* /Kind of Plants */
+
+/* Products - What We Offer To You*/
+
+.what-we-offer {
+    padding-top: 120px;
+    font-family: 'Lato';
+}
+
+.wwo-title {
+    text-align: center;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    color: #285A43;
+
+    padding-bottom: 35px;
+}
+
+.wwo-products-list {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    padding: 0 120px 120px 120px;
+    justify-content: center;
+}
+
+.wwop-item {
+    display: block;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.02);
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 27px;
+    margin-bottom: 25px;
+
+    font-family: 'Lato';
+}
+
+.wwop-i-img {
+    border-radius: 10px 10px 0 0;
+    width: 280px;
+    height: 250px;
+}
+
+/* .wwop-i-favourite {
+    position: relative;
+    bottom: 235px;
+    left: 233px;
+} */
+/* <img class="wwop-i-favourite" src="imgs/products/Love0.png"> */
+
+.wwop-i-title {
+    padding: 10px 0 5px 24px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 140%;
+    color: #337A5B;
+}
+
+.wwop-i-underTitle {
+    display: flex;
+}
+
+.wwop-i-oldCost {
+    padding: 0 7px 10px 24px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #121212;
+    opacity: 0.5;
+
+    text-decoration-line: line-through;
+}
+
+.wwop-i-cost {
+    padding: 0 0 10px 0;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 140%;
+}
+
+.wwop-i-buynow {
+    position: relative;
+    bottom: 13px;
+    left: 86px;
+    width: 98px;
+    height: 33px;
+
+    background: #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid rgba(51, 122, 91, 0.6);
+    cursor: pointer;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 140%;
+
+    color: #337A5B;
+    
+    transition: background 0.3s linear;
+}
+
+.wwop-i-buynow:hover {
+    color: #FFFFFF;
+    background-color: #337A5B;
+}
+
+/* /Products - What We Offer To You*/
+
+/* excellence */
+
+.div1-excellence {
+    display: flex;
+}
+.block-excellence {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+/* h3, image and p */
+
+.h3-Quality-Product {
+    padding-left: 68px;
+}
+.h3-Always-Fresh {
+    padding-left: 57px;
+}
+.h3-Work-Smart {
+    padding-left: 68px;
+}
+.h3-Excelent-Service {
+    padding-left: 57px;
+}
+.p-Quality-Product {
+    padding-left: 68px;
+}
+.p-Always-Fresh {
+    padding-left: 57px;
+}
+.p-Work-Smart {
+    padding-left: 68px;
+}
+.p-Excelent-Service {
+    padding-left: 57px;
+}
+.image-Quality-Product {
+    margin-left: 52px;
+}
+.image-Always-Fresh {
+    margin-left: 34px;
+}
+.image-Work-Smart {
+    margin-left: 52px;
+}
+.image-Excelent-Service {
+    margin-left: 34px;
+}
+
+/* /h3, image and p */
+
+/* Blocks */
+
+.Quality-Product {
+    width: 360px;
+    height: 380px;
+
+    background: #FCFCFC;
+}
+.Always-Fresh {
+    width: 360px;
+    height: 380px;
+
+    background: #F8F8F8;
+}
+.Work-Smart {
+    width: 360px;
+    height: 380px;
+
+    background: #F8F8F8;
+}
+.Excelent-Service {
+    width: 360px;
+    height: 380px;
+
+    background: #FCFCFC;
+}
+
+/* /Blocks */
+
+.block-excellence h3 {
+    color: #285A43;
+    font-family: 'Lato';
+
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 28px;
+}
+.block-excellence p {
+    color: #121212;
+    font-family: 'Raleway';
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.8;
+} 
+.block-excellence img {
+    margin-top: 54px;
+}
+
+/* /excellence */
+
+/* gallery */
+
+.ourgallery {
+    margin: 0 auto;
+    padding-top: 120px;
+}    
+
+.og-title {
+    text-align: center;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    color: #285A43;
+
+    padding-bottom: 35px;
+    
+}
+
+.ourgallery-images {
+    display: flex;
+}
+
+.og-i-row1,
+.og-i-row2 {padding-right: 10px;}
+.og-i-rowTop {padding-bottom: 6px;}
+
+/* ./gallery */
+
+/* What do they say about us */
+
+.wdts {
+    height: 624px;
+    margin-top: 31px;
+}
+.h2-wdts {
+    color: #285A43; 
+    font-family: 'Lato';
+    
+    text-align: center;
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: 0.04em;
+
+}
+
+/* divs and blocks */
+
+.div-wdts {
+    width: 360px;
+    height: 330px;
+
+    background: #F8F8F8;
+    border-radius: 5px;
+}
+.block-wdts {
+    display: flex;
+    justify-content: space-around;
+}
+.div-h3-wdts {
+    display: flex;
+}
+
+/* /divs and blocks */
+
+/* img, h3 and p */
+
+.wdts-1 {
+    background-image: url(../imgs/wtds/Testimonial.png);
+
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+.wdts-2 {
+    background-image: url(../imgs/wtds/Testimonial2.png);
+
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+.wdts-3 {
+    background-image: url(../imgs/wtds/Testimonial3.png);
+
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.wdts img {
+    margin-left: 44px;
+    margin-top: 40px;
+
+}
+
+.wdts h3 {
+    color: #285A43;
+    font-family: 'Lato';
+
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 28px;
+
+    margin-left: 20px;
+    margin-top: 57px;
+}
+
+.wdts p {
+    font-family: 'Raleway';
+    color: #121212;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.8;
+}
+
+.wtds-p-1 {
+    margin-left: 44px;
+    margin-top: 31px;
+}
+
+.wtds-p-2 {
+    margin-left: 44px;
+    margin-top: 39px;
+}
+
+.wtds-p-3 {
+    margin-left: 54px;
+    margin-top: 39px;
+}
+
+.all1 {
+    padding-top: 89px;
+}
+
+/* /img, h3 and p */
+
+/* /What do they say about us */
+
+/* Subscribe Mailing */
+
+.section--subscribeMailing {
+    background-image: url(../imgs/subscribemailing/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+ 
+.subscribeMailing {
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.subscribeMailing-title {
+    /* padding: 128px 24px 128px 101px; */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+    padding: 128px 87px 128px 100px;
+}
+
+.subMailing-i-email {
+    width: 475px;
+    height: 48px;
+
+    background: rgba(217, 217, 217, 0.03);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(2.5px);
+    border-radius: 5px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+
+
+    color: #FFFFFF;
+
+    padding-left: 25px;
+    margin: 152px 25px 200px 0;
+}
+
+.subMailing-i-submit {
+    width: 145px;
+    height: 48px;
+
+    background: #285A43;
+    backdrop-filter: blur(2.5px);
+    border-radius: 5px;
+    border: none;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    
+    margin: 152px 100px 200px 0;
+}
+
+/* ./Subscribe Mailing */
+
+/* Interesting blog to read */
+
+/* blocks */
+
+.ibtr {
+    height: 848px;
+
+    padding-top: 123px;
+}
+
+.div-ibtr {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block-ibtr {
+    width: 360px;
+    height: 520px;
+}
+
+/* /blocks */
+
+/* headlines, paragraphes and images */
+
+.ibtr h2 {
+    font-family: 'Lato';
+    color: #285A43;
+
+    font-size: 36px;
+    line-height: 50px;
+
+    text-align: center;
+}
+
+.ibtr h3 {
+    font-family: 'Lato';
+    color: #285A43;
+    
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.ibtr p {
+    font-family: 'Raleway';
+    color: #121212; 
+
+    line-height: 24px;
+}
+
+.date {
+    font-family: 'Raleway';
+    color: rgba(18, 18, 18, 0.8);
+
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.8;
+
+    padding-left: 8px;
+}
+
+.btr {
+    display: flex;
+    margin-top: 20px;
+}
+
+.read-more {
+    font-family: 'Lato';
+    color: #285A43;
+
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+
+    margin-left: 100px;
+}
+
+.arrow {
+    margin-left: 9px;
+    margin-top: 6px;
+}
+
+.btr-p1 {
+    margin-top: -10px;
+}
+
+.btr-p2 {
+    margin-top: 44px;
+}
+.btr-p3 {
+    margin-top: 41px;
+}
+
+/* headlines, paragraphes and images */
+
+/* /Interesting blog to read */
+
+/* footer */
+
+.section--footer {
+    background-image: url(../imgs/footer/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.footer {
+    height: 374px;
+
+    color: #FFFFFF;
+}
+
+.footer-title {
+    padding: 75px 0 35px 0;
+    text-align: center;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 140%;
+}
+
+.footer-socialLinks {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 573px 35px;
+}
+
+.footer-socL-item {cursor: pointer;}
+
+.footer-navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 395px 64px;   
+}
+
+.footer-nB-items {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* ./footer */
